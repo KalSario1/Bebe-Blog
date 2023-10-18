@@ -1,0 +1,125 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+
+
+.icon {
+    width: 4%;
+    padding-bottom: 15px;
+    transition: .2s;
+}
+
+.icon:hover {
+    transform: scale(1.5);
+}
+
+.hover {
+    font-weight:600;
+    transition: .3s;
+}
+
+.image {
+    background-image: url(/photos/photo2.jpg) no-repeat;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    opacity: .5;
+
+}
+
+.main {
+    width:100%;
+    min-height: 100vh;
+    background-color: #000000;
+    display:flex;
+    overflow: hidden;
+    align-items:flex-start;
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(85, 85, 85, 0.5)),
+     url(/photos/Baby\ Ko\ \(88\).jpg) no-repeat;
+    background-size:cover;
+    opacity: 0.9;
+    background-position:right;
+    background-attachment:fixed;
+
+}
+
+.button {
+    transition: .2s ease;
+}
+.button:hover {
+    transform:scale(1.1);
+}
+
+.Jacey-Gram {
+    color: white;
+    background-color: #005db4;
+}
+.titlemsg {
+    font-weight: 650;
+    color: rgb(1, 106, 167)
+}
+
+.animationcard {
+    padding: 16px;
+    max-height: 100vh;
+    overflow: hidden;
+    align-items: center;
+    width: 80%;
+    transition:.2s ease;
+
+}
+
+
+.img2 {
+    margin-top: -10px;
+    width: 13%;
+    border: 5px solid #4798e4;
+    border-radius: 2px;
+}
+.box {
+
+    display: inline-block;
+
+}
+
+.animationcard2 {
+    overflow: hidden;
+    align-items: center;
+    display: inline-block;
+    border: 5px solid #4798e4;
+    border-radius: 2px;
+    transition:.2s ease;
+
+}
+
+.message-slider {
+    display: flex;
+    overflow: hidden;
+    max-height: 100vh;
+}
+
+.card {
+    width: 100%;
+    display: none;
+    text-align: center;
+}
+
+.card img {
+    max-width: 100%;
+}
+
+#message1 {
+    display: block;
+}
+
+.button2 {
+    transition: .2s ease;
+}
